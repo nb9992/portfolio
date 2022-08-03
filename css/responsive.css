@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+
+@media (max-width:1230px){
+    .mock { margin-left:0px; }
+}
+
+
+
+
+@media (max-width:1023px){
+    /* section2 */
+    .profiles { margin-left:80px; }
+
+    .who { width:450px; margin-left:130px;}'
+    
+    /* section3 */
+    .con_box { margin-left:50px;}
+
+    .lotte_name { background:url('../img/lotte420.png')no-repeat; width:420px; height:47px; margin:30px auto 40px; }
+
+    .tire_name { background:url('../img/tire-tech420.png')no-repeat; width:420px; height:47px; margin:30px auto 40px; }
+    .gnt_name { background:url('../img/GNT420.png')no-repeat; width:420px; height:47px; margin:30px auto 40px; }
+    .subway_name { background:url('../img/subway420.png')no-repeat; width:420px; height:47px; margin:30px auto 40px; }
+    /* 목업이미지 */
+    .mock { margin-left:50px; }
+    .mock_pc { right:30px; }
+    .mock_pc > img { width:400px; margin-top:20px; }
+    /* 롯데e샵 */
+    .lotte_page { width:339px; height:190px; top:46px; left:31px; }
+
+}
+
+
+
+
+
+
+@media (max-width:992px){
+    /* section2 */
+
+    .profiles { margin-left:60px; }
+
+    .who { width:350px; margin-left:150px;}
+    .skills { margin:70px 0 0 50px; }
+
+    /* section3 */
+    .con_box { margin-left:50px;}
+
+    .lotte_name { background:url('../img/lotte420.png')no-repeat; width:420px; height:47px; margin:30px auto 40px; }
+    
+    /* 목업이미지 */
+    .mock_pc { right:30px; }
+    .mock_pc > img { width:400px; margin-top:20px; }
+    /* 롯데e샵 */
+    .lotte_page { width:339px; height:190px; top:46px; left:31px; }
+
+
+}
+
+
+
+@media (max-width:923px){
+    /* section2 */
+    .skills { margin:70px 0 0 50px; }
+    /* section4 */
+    .last_page { width:900px; }
+
+}
+
+
+@media (max-width:875px){
+
+    .skills { margin:70px 0 0 70px; }
+
+    #section2.active .dgauge_pho { width:210px; }
+    #section2.active .dgauge_il { width:170px; }
+    #section2.active .dgauge_fi { width:210px; }
+    #section2.active .dgauge_xd { width:190px; }
+    #section2.active .dgauge_cad { width:150px; }
+
+    #section2.active .sgauge_h { width:190px; }
+    #section2.active .sgauge_c { width:190px; }
+    #section2.active .sgauge_java { width:150px; }
+    #section2.active .sgauge_jq { width:150px; }
+    #section2.active .sgauge_boo { width:170px; }
+}
+
+
+@media (max-width:768px){
+    
+    /* section2 */
+
+    .section_w { width:414px; height:900px; padding-top:70px;}
+
+    .profiles { margin-left:80px; }
+
+    #section2.active .who_inner { transform:translate(-40px); }
+
+    .who { width:250px; margin-left:10%; }
+
+    .profile_img { width:250px; height:300px; }
+
+    /* skills */
+
+    .skills { margin:20px 0 0 20px; }
+    
+    .designskill_logo { margin-bottom:0px; }
+    #section2.active .dgauge_pho { width:250px; }
+    #section2.active .dgauge_il { width:210px; }
+    #section2.active .dgauge_fi { width:250px; }
+    #section2.active .dgauge_xd { width:230px; }
+    #section2.active .dgauge_cad { width:190px; }
+
+    .codingskill_logo { margin:0px; }
+    #section2.active .sgauge_h { width:230px; }
+    #section2.active .sgauge_c { width:230px; }
+    #section2.active .sgauge_java { width:190px; }
+    #section2.active .sgauge_jq { width:190px; }
+    #section2.active .sgauge_boo { width:210px; }
+
+    .eta_logo { margin:0px; }
+
+
+    /* section3 */
+
+    /* 윗쪽글씨들 */
+    .con_box { display:inline-block; margin-left:150px;}
+
+    .lotte_name { background:url('../img/lotte350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .tire_name { background:url('../img/tire-tech350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .gnt_name { background:url('../img/GNT350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .subway_name { background:url('../img/subway350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+
+
+    .con_box > p:nth-child(2) { font-size:16px; margin:0 0 30px 30px; }
+    .con_box > p:nth-child(3) { font-size:14px; margin:0 0 30px 30px; }
+
+    .buttons { margin-left:8px; }
+
+    /* 목업이미지 */
+    .mock_z { display:inline-block; margin:150px 0 0 200px;}
+
+    .mock { display:none; }
+    
+    
+    /* 목업안에 이미지 */
+    .lotte_page { width:295px; height:168px; top:22px; left:28px; }
+
+
+    /* section4 */
+
+    .last_page { width:414px; }
+
+    .last_mail { font-size:2.3rem; }
+    .last_call { font-size:1.3rem; }
+}
+
+
+@media (max-width:576px){
+    
+
+}
+
+
+
+@media (max-width:414px){
+    /* header */
+    .gnb_list > li a { height:26px; margin-top:15px; }
+    .mitem img { width:90px; height:23px; }
+
+
+    .intro { background:url('../img/in120m.png') no-repeat; width:90px; margin-right:0px; }
+    .profile { background:url('../img/prof120m.png') no-repeat; width:90px; margin-right:10px; }
+    .project { background:url('../img/proj120m.png') no-repeat; width:90px; margin-right:10px; }
+    .contact { background:url('../img/contact120m.png') no-repeat; width:90px; margin-right:11px;}
+
+    .intro:hover { background:url('../img/in_n120m.png') no-repeat; }
+    .profile:hover { background:url('../img/prof_n120m.png') no-repeat; }
+    .project:hover { background:url('../img/proj_n120m.png') no-repeat; }
+    .contact:hover { background:url('../img/contact_n120m.png') no-repeat; }
+
+
+
+    /* section1 */
+    #section1 { background:url('../img/m414.png') no-repeat center center; }
+
+    .txt { margin-top:-200px; }
+    img.ji { width:360px; }
+    img.let { width:150px; }
+
+
+    /* section2 */
+
+    .section_w { width:414px; height:900px; padding-top:70px;}
+
+    .profiles { margin-left:80px; }
+
+    #section2.active .who_inner { transform:translate(-40px); }
+
+    .who { width:250px; }
+
+    .profile_img { width:250px; height:300px; }
+
+    /* skills */
+
+    .skills { margin:20px 0 0 20px; }
+    
+    .designskill_logo { margin-bottom:0px; }
+    #section2.active .dgauge_pho { width:250px; }
+    #section2.active .dgauge_il { width:210px; }
+    #section2.active .dgauge_fi { width:250px; }
+    #section2.active .dgauge_xd { width:230px; }
+    #section2.active .dgauge_cad { width:190px; }
+
+    .codingskill_logo { margin:0px; }
+    #section2.active .sgauge_h { width:230px; }
+    #section2.active .sgauge_c { width:230px; }
+    #section2.active .sgauge_java { width:190px; }
+    #section2.active .sgauge_jq { width:190px; }
+    #section2.active .sgauge_boo { width:210px; }
+
+    .eta_logo { margin:0px; }
+
+    /* section3 */
+
+    /* 윗쪽글씨들 */
+    .con_box { display:inline-block; width:414px; float:none; height:400px;}
+
+    .lotte_name { background:url('../img/lotte350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .tire_name { background:url('../img/tire-tech350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .gnt_name { background:url('../img/GNT350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+    .subway_name { background:url('../img/subway350.png')no-repeat; width:350px; height:47px; margin:70px auto 10px; }
+
+
+    .con_box > p:nth-child(2) { font-size:16px; margin:0 0 30px 30px; }
+    .con_box > p:nth-child(3) { font-size:14px; margin:0 0 30px 30px; }
+
+    .buttons { margin-left:8px; }
+
+    /* 목업이미지 */
+    .mock_pc { right:30px; }
+    .mock_pc > img { width:350px; }
+    /* 롯데e샵 */
+    .lotte_page { width:295px; height:168px; top:22px; left:28px; }
+
+
+    /* section4 */
+
+    .last_page { width:414px; }
+
+    .last_mail { font-size:2.3rem; }
+    .last_call { font-size:1.3rem; }
+}
+
+@media (max-width:375px){
+    #section1 { background:url('../img/m375.png') no-repeat; width:100%; height:100%; }
+
+    
+}
